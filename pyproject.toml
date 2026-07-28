@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "turtle-ai"
+version = "0.1.0"
+description = "Turtle AI"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+turtle-ai = "test:main"
+
+[project.urls]
+Homepage = "https://github.com/xuehang-ai/turtle-ai"
+
+[tool.hatch.build.targets.wheel]
+packages = ["turtleai", "test.py"]
