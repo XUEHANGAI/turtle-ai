@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-pip install turtleai
+pip install turtle-ai
 ```
 
 ## Usage

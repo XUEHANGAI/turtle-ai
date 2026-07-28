@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "turtleai"
+name = "turtle-ai"
 version = "0.1.1"
 description = "Turtle AI"
 readme = "README.md"
