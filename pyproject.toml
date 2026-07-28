@@ -20,3 +20,8 @@ Repository = "https://github.com/XUEHANGAI/turtle-ai"
 
 [tool.hatch.build.targets.wheel]
 packages = ["turtleai", "test.py"]
+
+[dependency-groups]
+dev = [
+    "mkdocs-material>=9.7.7",
+]
